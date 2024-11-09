@@ -20,7 +20,7 @@ const Sidebar = () => {
                 <img src={logo} alt="Bot Logo" className="bot-logo" />
             </div>
 
-            {/* Sidebar Menu Items */}
+            {/* Sidebar Menu Items }
             <div className="sidebar-item" onClick={() => loadPrompt('Text to Speech')}>
                 <p>Text to Speech</p>
             </div>
@@ -41,7 +41,7 @@ const Sidebar = () => {
             </div>
             <div className="sidebar-item" onClick={() => loadPrompt('Interactive Dictionary')}>
                 <p>Interactive Dictionary</p>
-            </div>
+            </div>*/}
         </div>
     );
 };
