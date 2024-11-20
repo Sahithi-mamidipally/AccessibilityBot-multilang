@@ -26,7 +26,7 @@ const Main = () => {
   return (
     <div className={`main ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <div className="nav">
-        <p>Accessibility Bot</p>
+        <h1>Accessibility Bot</h1>
       </div>
 
       <nav className="navbar">
